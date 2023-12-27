@@ -20,7 +20,7 @@ end
 # Chaining map operations
 # Conditional transformation based on a condition
 numbers = [1, 2, 3, 4, 5]
-transformed_numbers = numbers.map { |num| num > 2 ? num * 2 }
+transformed_numbers = numbers.map { |num| num > 2 ? num * 2 : num }
 
 
 transformed_numbers.each do |num|

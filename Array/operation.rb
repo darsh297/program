@@ -19,6 +19,7 @@ puts
 a.delete_at(2)
 print a
 
+a.rach 
 a.delete_if{|a|  a<3 }
 
 puts
